@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
 import ListarGastos from './components/ListarGastos';
-import AdicionarGasto from '.components/AdicionarGasto';
+import AdicionarGasto from './components/AdicionarGasto';
+import Titulo from './components/Titulo';
 
 class App extends Component {
   constructor(props) {
@@ -20,6 +21,7 @@ class App extends Component {
   render() {
     return (
       <View>
+        <Titulo texto="Registro de Gastos" />
         <ListarGastos />
         <AdicionarGasto onAdicionarGasto={this.adicionarGasto} />
       </View>
