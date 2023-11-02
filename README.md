@@ -1,2 +1,6 @@
 # DMI-S02T01
-  Registro de gastos
+
+Registro de gastos
+
+- `Nombre`: Eduardo Francisco Flores Sauceda
+- `Cuenta`: T32311172.
